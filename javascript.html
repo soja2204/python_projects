@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        
+    </head>
+    <body>
+        <img id="bulb" src="offbulb.jpg" width="25%">
+        <br>
+    <button onclick="turnOn()">
+        Turn on the light
+    </button>
+    <button onclick="turnOff()">
+        Turn off the light
+    </button>
+    <script>
+        function turnOn() {
+            document.getElementById("bulb").src = "onbulb.jpg";
+        }
+        function turnOff() {
+            document.getElementById("bulb").src = "offbulb.jpg";
+        }
+    </script>
+    </body>
+</html>
+
